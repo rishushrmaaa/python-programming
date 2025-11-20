@@ -1,0 +1,17 @@
+class Calculator:
+    def sum(self, a, b):
+        return  a+b
+
+    def sub(self, a, b):
+        return  a-b
+
+    def mult(self, a, b):
+        return  a*b
+
+    def div(self, a, b):
+        return  a/b
+obj = Calculator()
+print(obj.sum(5, 3))
+print(obj.sub(5, 3))
+print(obj.mult(5, 3))
+print(obj.div(50, 10))
