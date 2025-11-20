@@ -1,0 +1,8 @@
+class library_management:
+    def list_of_books(self):
+        books = ["Harry Potter", "Mathematics", "Science", "Python Programming", "English"]
+        print("List of Books:")
+        for b in books:
+            print("-", b)
+lib = library_management()
+lib.list_of_books()
