@@ -1,0 +1,50 @@
+class Retail_Store_Management:
+
+    store_id = 101
+    location = "Jammu"
+
+    def grocery_section(self):
+        print("\n--- Grocery Section ---")
+        items = {
+            "G01": {"name": "Rice", "price": 50},
+            "G02": {"name": "Sugar", "price": 40}
+        }
+        print("Store ID:", Retail_Store_Management.store_id)
+        print("Location:", Retail_Store_Management.location)
+        print("Items:", items)
+
+    def clothing(self):
+        print("\n--- Clothing Section ---")
+        items = {
+            "C01": {"name": "T-Shirt", "price": 300},
+            "C02": {"name": "Jeans", "price": 900}
+        }
+        print("Store ID:", Retail_Store_Management.store_id)
+        print("Location:", Retail_Store_Management.location)
+        print("Items:", items)
+
+    def stationary(self):
+        print("\n--- Stationary Section ---")
+        items = {
+            "S01": {"name": "Notebook", "price": 40},
+            "S02": {"name": "Pen", "price": 10}
+        }
+        print("Store ID:", Retail_Store_Management.store_id)
+        print("Location:", Retail_Store_Management.location)
+        print("Items:", items)
+
+    def medicines(self):
+        print("\n--- Medicines Section ---")
+        items = {
+            "M01": {"name": "Paracetamol", "price": 20},
+            "M02": {"name": "Cough Syrup", "price": 80}
+        }
+        print("Store ID:", Retail_Store_Management.store_id)
+        print("Location:", Retail_Store_Management.location)
+        print("Items:", items)
+
+store = Retail_Store_Management()
+store.grocery_section()
+store.clothing()
+store.stationary()
+store.medicines()
